@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, Geocoder } from 'react-mapbox-geocoder-autocomplete';
+import { Map, Autocomplete } from 'react-mapbox-geocoder-autocomplete';
 
 const initViewPosition = {
   longitude: -73.9866,
@@ -52,7 +52,7 @@ const App = ({
 
   return (
     <div style={{ margin: 'auto',  height: '100%', width: '600px' }}>
-      <Geocoder
+      <Autocomplete
         mapToken={mapToken}
         onItemClick={onItemClick}
         address={address}
