@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, Geocoder } from 'react-mapbox-geocoder-autocomplete-jovan';
+import { Map, Geocoder } from 'react-mapbox-geocoder-autocomplete';
 
 const initViewPosition = {
   longitude: -73.9866,
