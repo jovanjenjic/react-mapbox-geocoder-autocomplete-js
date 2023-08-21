@@ -1,0 +1,7 @@
+.custom-react-geocoder {
+    border: 1px solid red;
+  }
+  
+  .mapboxgl-map {
+    max-width: 400px;
+  }
